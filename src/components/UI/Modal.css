@@ -1,0 +1,17 @@
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.status {
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+img {
+  width: 20px;
+}
