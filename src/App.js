@@ -240,7 +240,7 @@ function App() {
     let innerArr = [];
     let count = 0;
     if (value === "success" || value === "failed" || value === "upcoming") {
-      navigate(`/?filter=${value}`);
+      navigate(`/spacex/?filter=${value}`);
       for (let el of rocketLaunches) {
         el.forEach((launch) => {
           if (
